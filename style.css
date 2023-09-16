@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.nav_left{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+}
+
+#nav{
+    background-color: black;
+    height: 46.5px;
+}
+
+.text_white{
+    color: white;
+    font-family: 'Rubik Bubbles', cursive;
+    font-family: 'Seymour One', sans-serif;
+    font-family: 'Yuji Hentaigana Akari', cursive;
+}
+
+.nav_left > li{
+    line-height: 46.5px;
+}
